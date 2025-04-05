@@ -1,8 +1,16 @@
 
+struct Gadgets {
+    int** arr = nullptr;
+    int *productSizes = nullptr;
+    int nTestCases;
+};
+
 template<class T>
 class LevelBawaGee {
 public:
-    static T*& inc(T*& arr, int& size, T newEle);
-    static T*& dec(T*& arr, int& size);
-    static const char* read(const char* fileName);
+    static T*& inc(T*&, int, T);
+    static T*& dec(T*&, int);
+    static Heap<T> read_q1(Heap<T>, const char*);
+    static void read_q4(Gadgets*, const char*);
+    static void print_gadgets_q4(Gadgets);
 };

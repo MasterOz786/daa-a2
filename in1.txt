@@ -1,0 +1,8 @@
+2 max
+ins
+10 20 5 30 15 40 50
+extract
+extract
+extract
+ins
+45 85 29
