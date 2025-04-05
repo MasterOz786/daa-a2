@@ -1,0 +1,7 @@
+3
+a?ple
+banana
+g?ape
+2
+I love eating an Apple and a Banana.
+Grapes are my favorite fruit, but I also like banana and apple.
